@@ -14,10 +14,6 @@ import re, functools, unittest
 # "choose" is surprisingly using Pascal's Triangle:
 # https://en.wikipedia.org/wiki/Pascal%27s_triangle
 #
-# (gaurav edit: Sorry this is an unnecessary long-winded explanation but I 
-# just think it's the coolest thing. You're free skip the explanation. The 
-# math isn't that relevant. It just blows my mind)
-#
 # N choose K is the number in the Nth row and the Kth column of pascals
 # triangle. Pascal's triangle is recursively defined (each element is the sum
 # of the two above it). Compute N choose K knowing this recursive relationship
